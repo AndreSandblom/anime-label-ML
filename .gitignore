@@ -1,0 +1,6 @@
+# data
+data/anime.csv
+outputs/
+*.png
+# venv
+venv/
