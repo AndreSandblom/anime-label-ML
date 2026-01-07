@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
+from src.config import TEST_LABELS
 
 preds = pd.read_csv("outputs/predictions.csv")
-test = pd.read_csv("data/labels_test_10.csv")
+test = pd.read_csv(TEST_LABELS)
 
 m = preds.merge(test[["name", "happy_ending"]], on="name", how="inner")
 
