@@ -7,5 +7,5 @@ OUTDIR = "outputs"
 
 # Model hyperparams (baseline)
 K = 15
-ALPHA = 0.8
+ALPHA = 0.9
 CHUNK_SIZE = 200
